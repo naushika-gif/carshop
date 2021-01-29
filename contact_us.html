@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1 id="company_header">Carshop Company</h1>
+      <h2>Contact Us</h2>
+    </header>
+
+    <hr>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+    <a href="about_us.html">About Us</a>
+    <a href="contact_us.html">Contact Us</a>
+    </nav>
+  <br>
+  <form>
+    <label for="lastname">Lastname: </label> 
+    <!-- name(for data)とid(for html)は日本語と英語見たいのなもの。見た目は違うけど同じ意味を持つ。 -->
+      <input type="text" name="lastname" id="Lastname" placeholder="Lastname" required>
+      <label for="firstname">Firstname: </label> 
+      <input type="text" name="firstname" id="Firstname" placeholder="Fistname" required>
+      <br>
+      <label for="passoword">Password: </label>
+      <input type="password" id="password" name="password">
+      <br>
+      <label for="birthday">Birthday: </label>
+      <input type="date" id="birthday" name="birthday">
+      <br>
+      <label for="age">Age: </label>
+      <input type="number" name="age" min="0.1" max="150">
+      <br>
+      <label for="email">Email: </label>
+      <input type="email" id="email" name="email">
+      <br>
+      <label for="message">Message: </label>
+      <textarea name="message" id="message"></textarea>
+      <br>
+      <label for="advertisement">How did you learn about our company?</label>
+      <br>
+      <input type="radio" id="newspaper" name="advertisement" value="newspaper">
+      <label for="newspaper">Newspaper</label>
+      <br>
+      <input type="radio" id="television" name="advertisement" value="television">
+      <label for="television">Television</label>
+      <br>
+      <input type="radio" id="social_media" name="advertisement" value="social_media">
+      <label for="social_media">Social Media</label>
+      
+      <br>
+      <label for="countries_visistee">Countries visited: </label>
+      <br>
+      <input type="checkbox" name="countries_visited" id="argentina" value="argentina">
+      <label for="argentina">Argentina</label>
+      <br>
+      <input type="checkbox" name="countries_visited" id="bulgaria" value="bulgaria">
+      <label for="bulgaria">Bulgaria</label>
+      <br>
+      <input type="checkbox" name="countries_visited" id="canada" value="canada">
+      <label for="canada">Canada</label>
+      <br>
+      <input type="checkbox" name="countries_visited" id="denmark" value="denmark">
+      <label for="denmark">Denmark</label>
+      <br>
+      <input type="checkbox" name="countries_visited" id="estonia" value="estonia">
+      <label for="estonia">Estonia</label>
+      <br>
+      <input type="checkbox" name="countries_visited" id="france" value="france">
+      <label for="france">France</label>
+      <br>
+      <label for="country_of_origin">Country of origin: </label>
+      <select id="country_of_origin">
+        <option value="australia">Australia</option>
+        <option value="belgium">Belgium</option>
+        <option value="cyprus">Cyprus</option>
+        <option value="djibouti">Djibouti</option>
+        <option value="egypt">Egypt</option>
+      </select>
+      <br>
+      <label for="country_of_preference">Country of preference: </label>
+      <select id="country_of_preference" multiple>
+        <option value="angola">Angola</option>
+        <option value="bangladesh">Bangladesh</option>
+        <option value="czech_republic">Czech Republic</option>
+        <option value="drc">Democratic Republic of the Congo</option>
+        <option value="eritrea">Eritrea</option>
+      </select>
+      <br>
+      <label for="file_input">File input:</label>
+      <input type="file" name="file_input" id="file_input">
+      <br>
+      <button type="submit" value="Submit">Submit</button>
+      <br>
+      <input type="image" src="images/green_button.jpeg" alt="Green button.">
+      <br>
+      <input type="button" value="I am a button">
+    </form>
+    <footer>
+      Carshop Company © 2021  
+    </footer>
+  </div>
+</body>
+</html>
