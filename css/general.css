@@ -77,7 +77,7 @@ a {
   text-transform: uppercase;
   text-decoration: underline;
   text-align: center;
-  text-shadow: 3px 10px 3px orangered;
+  text-shadow: 3px 10px 3px rgb(255, 30, 0);
   text-indent: 0px;
   letter-spacing: 5px;
   word-spacing: 0px;
@@ -97,7 +97,7 @@ ol {
 #container{
   width: 85%;
   margin: auto;
-  background-color: rgba(213, 249, 255, 0.938);
+  background-color: rgba(252, 255, 213, 0.952);
   padding: 30px;
 }
 
@@ -117,5 +117,12 @@ footer {
   color: white;
   background-color: black;
   height: 15px;
+}
 
+@media only screen and (max-width: 500px) {
+nav a {
+  display: block;
+  width: 100%;
+  background-color: black;
+  color: white;
 }
