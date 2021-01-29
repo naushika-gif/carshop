@@ -97,7 +97,7 @@ ol {
 #container{
   width: 85%;
   margin: auto;
-  background-color: rgb(255, 213, 213);
+  background-color: rgba(213, 249, 255, 0.938);
   padding: 30px;
 }
 
